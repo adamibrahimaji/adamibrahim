@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form Example</title>
+		<link rel=stylesheet href=form.css>
+	</head>
+		
+	<body>
+		
+		<header>
+			<h1>Formulir Siswa</h1>
+			<h2>Formulir Data Siswa UNIKOM Indonesia</h2>
+		</header>
+	
+		<nav id=link_nav>
+			<a href=# class=link> Menu </a> 
+			<a href=# class=link> Profile </a> 
+			<a href=# class=link> Contact </a> 
+			<a href=# class=link> E-Mail </a> 
+		</nav>
+		
+		<main>	
+			<form name=form>
+				<p>Cari Kata<input type=search name=search placeholder=Cari&nbsp;Kata></p></td>
+			<hr>
+				<fieldset>
+					<legend>
+						<h2>Isian Data</h2>
+					</legend>
+					
+						<table>
+							<tr><td>	Nama Siswa			<td>: <input type=text name=nama size=20 placeholder=Nama&nbsp;Anda>
+							<tr><td> 	Tanggal lahir		<td>: <input type=date name=date min=1940-01-01 max=2017-01-01>
+							<tr><td> 	Password			<td>: <input type=password name=password size=30 placeholder=Masukan&nbsp;Maksimal&nbsp;Delapan&nbsp;Karakter>
+							<tr><td><label for=email> E-Mail </label>	<td>: <input type=email name=email size=35 placeholder=Email&nbsp;Anda id=email required>
+							<tr><td>	Jenis kelamin		<td>: <input type=radio name=kelamin value=1 checked=pria>Pria <input type=radio name=kelamin value=2>Wanita
+							<tr><td>	Pelajaran Favorit	<td>: 
+							
+							<select size=1 name=pelajaran_favorit>
+								<optgroup label=IPA>
+									<option value=1>matematika</option>
+									<option value=2>Biologi</option>
+									<option value=3>Kimia</option>
+									<option value=4>Fisika</option>
+								</optgroup>
+								<optgroup label=Teknik>
+									<option value=5>Mesin</option>
+									<option value=6>Listrik</option>
+									<option value=7>Komputer</option>
+									<option value=8>Mekanik</option>
+								</optgroup>
+							</select>
+							
+							<tr><td>	Hobi				<td>: <input type=checkbox name=hobi value=1>Baca
+							<tr><td><td>: <input type=checkbox name=hobi value=2>Musik
+							<tr><td><td>: <input type=checkbox name=hobi value=3>Jalan
+							<tr><td>Agama<td>: 
+							
+							<select size=1 name=agama>
+								<option value=1>Islam</option>
+								<option value=1>Kristen</option>
+								<option value=1 selected>Katholik</option>
+								<option value=1>Hindu</option>
+								<option value=1>Budha</option>
+							</select>
+							
+							<tr><td>	Asal Sekolah		<td>: <input type=text name=asalsma size=40 value=Sakola&nbsp;Maneh><br>
+							<tr><td>	Keterangan			<td>: <textarea name=keterangan cols=30 rows=3></textarea>
+						</table>
+				</fieldset>
+				
+				<fieldset>
+					<input type=submit value=Kirim>
+					<input type=reset value=Reset>
+				</fieldset><hr>
+				
+					<details>
+						<summary>Klik Link-Link Berikut</summary>
+						<p><a href=F1/soal1.html target=showframe style=text-decoration:none>Table Page</a></p>
+						<p><a href=form.html>Form Page</a></p>
+					</details>
+					
+					<dialog open>
+					Sekian Dan Terima Kasih
+					</dialog>
+					
+				<footer>
+					<p>&copy;&nbsp;&nbsp;Adam Ibrahim Aji</p>
+				</footer>
+				
+			</form>
+		</main>
+		
+		</body>
+</html>
+						
+						
+						
